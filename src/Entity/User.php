@@ -22,11 +22,6 @@ class User
         type: Types::STRING,
         length: 150,
         unique: true,
-        options: [
-            'collation' => 'utf8_general_ci',
-            'charset' => 'utf8mb4',
-
-        ]
     )]
     private ?string $email = null;
 
